@@ -1,0 +1,8 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+1:49:58 PM [express] serving on port 5000
+1:51:11 PM [express] GET /api/user 401 in 2ms
+1:51:13 PM [express] POST /api/login 200 in 1785ms :: {"isSuperAdmin":false,"name":"Default Admin","password":"91f8bbb880b1f2341cf2222c140c4dd8a69edbb4f5c68381952ab44044f3a4b39bb83760e4d38df8b5b4a77d039ec9ce8296684340581896b3405c32753c7aec.7b87d61ceb5a45618b705fc3c0b2e22a","id":1,"email":"Nadimanwar794@gmail.com"}
+1:51:15 PM [express] GET /api/sessions 200 in 625ms :: [{"isActive":true,"name":"2024-25","id":1}]
